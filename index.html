@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <nav class="header">
+        <ul>
+            <li class="logo"><a href=""><i class=" fa fa-solid fa-bed"></i> logo</a></li>
+            <li><a href="#room">rooms</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <div>book now</div>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <img src="images/hotel.jpg" alt="">
+            <div class="info">
+                <h2><i class=" fa fa-solid fa-bed"></i> hotel name</h2>
+                <form action="">
+                    <div> <label for="in"><i class="fa-regular fa-calendar-days"></i> Check In</label>
+                        <input type="date" id="in">
+                    </div>
+                    <div> <label for="out"><i class="fa-regular fa-calendar-days"></i> Check Out</label>
+                        <input type="date" id="out">
+                    </div>
+                    <div> <label for="adult"><i class="fa fa-male"></i> Adults</label>
+                        <input type="number" id="adult" value="1">
+                    </div>
+                    <div> <label for="kid"><i class="fa-solid fa-child"></i> Kids</label>
+                        <input type="number" id="kid" value="0">
+                    </div>
+                    <button><i class="fa fa-search"></i> search availability</button>
+                </form>
+            </div>
+        </div>
+        <div class="room-section" id="room">
+            <h4 class="title">rooms</h4>
+            <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
+            </p>
+            <form action="">
+                <div class="item1">
+                    <label for="in"><i class="fa-regular fa-calendar-days"></i> Check In</label><br>
+                    <input type="date" id="in">
+                </div>
+                <div class="item1"> <label for="out"><i class="fa-regular fa-calendar-days"></i> Check Out</label><br>
+                    <input type="date" id="out">
+                </div>
+                <div class="item2"> <label for="adu"><i class="fa fa-male"></i> Adults</label><br>
+                    <input type="number" id="adu" placeholder="1">
+                </div>
+                <div class="item2"> <label for="k"><i class="fa-solid fa-child"></i> Kids</label><br>
+                    <input type="number" id="k" placeholder="0">
+                </div>
+                <div class="item2"> <label for="i"><i class="fa fa-search"></i> Search</label><br>
+                    <button class="btn" id="i">search</button>
+                </div>
+            </form>
+            <div class="available">
+                <div>
+                    <div><img src="images/room_single.jpg" alt=""></div>
+                    <div class="available-content">
+                        <h4 class="title">Single Room</h4>
+                        <p>From $99</p>
+                        <p>Single bed</p>
+                        <p>15m2</p>
+                        <div><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> </div>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="images/room_double.jpg" alt=""></div>
+                    <div class="available-content">
+                        <h4 class="title">Double Room</h4>
+                        <p>From $149</p>
+                        <p>Queen-size bed</p>
+                        <p>25m2</p>
+                        <div><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i
+                                class="fa fa-tv"></i></div>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+                <div>
+                    <div> <img src="images/room_deluxe.jpg" alt="">
+                    </div>
+                    <div class="available-content">
+                        <h4 class="title">Deluxe Room</h4>
+                        <p>From $199</p>
+                        <p>King-size bed</p>
+                        <p>40m2</p>
+                        <div><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i
+                                class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></div>
+                        <button>Choose Room</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-section" id="about">
+            <div class="left-about">
+                <h4 class="title">About</h4>
+                <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam.</p>
+                <P>We accept <i class="fa fa-credit-card w3-large"></i><i class="fa-brands fa-cc-mastercard"></i><i
+                        class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-paypal"></i></P>
+            </div>
+            <div class="map"><img src="images/map.jpg" alt=""></div>
+        </div>
+        <div class="more-info">
+            <div class="con">
+                <div><i class="fa fa-map-marker"></i> 423 Some adr, Chicago, US</div>
+                <div><i class="fa fa-phone"></i> Phone: +00 151515</div>
+                <div><i class="fa fa-envelope"></i> Email: mail@mail.com</div>
+            </div>
+            <div class="danger"><i class="fa fa-info"></i> On demand, we can offer playstation, babycall, children care,
+                dog equipment, etc.</div>
+        </div>
+        <div class="locations">
+            <h4 class="title">Our Hotels</h4>
+            <p>You can find our hotels anywhere in the world:</p>
+            <div class="city">
+                <div class="num1 pos-rel">
+                    <img src="images/cinqueterre.jpg" alt="">
+                    <p class="pos-bottom-left">Cinque Terre</p>
+                </div>
+                <div class="pos-rel">
+                    <img src="images/newyork2.jpg" alt="">
+                    <p class="pos-bottom-left">New York</p>
+                </div>
+                <div class="pos-rel">
+                    <img src="images/sanfran.jpg" alt="">
+                    <p class="pos-bottom-left">San Francisco</p>
+                </div>
+                <div class="pos-rel">
+                    <img src="images/pisa.jpg" alt="">
+                    <p class="pos-bottom-left">Pisa</p>
+                </div>
+                <div class="pos-rel">
+                    <img src="images/paris.jpg" alt="">
+                    <p class="pos-bottom-left">Paris</p>
+                </div>
+            </div>
+        </div>
+        <div class="offers">
+            <h4 class="title">Get the best offers first!</h4>
+            <p>Join our newsletter.</p>
+            <div>
+                <label for="em">E-mail</label>
+                <input type="email" name="" id="em" placeholder="Your Email address">
+            </div>
+            <button>Subscribe</button>
+        </div>
+        <div class="contact" id="contact">
+            <h4 class="title">Contact</h4>
+            <p>If you have any questions, do not hesitate to ask them.</p>
+            <div>
+                <div><i class="fa fa-map-marker av"></i> Chicago, US
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i> Phone: +00 151515
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i> Email: mail@mail.com
+                </div>
+            </div>
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <button>SEND MESSAGE</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h4 class="title">find us on </h4>
+        <div><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i
+                class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i> </div>
+        <p>powered by <i class="fa-regular fa-copyright"></i> <u>Ahmed Yousry</u></p>
+    </footer>
+</body>
+
+</html>
